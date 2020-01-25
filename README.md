@@ -1,3 +1,3 @@
 # FDV-Constellations
 ![](Gif-Constellations.gif)
-![](Screenshot_1.png)
+![Screenshot](Screenshot_1.png)
