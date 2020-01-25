@@ -20,6 +20,6 @@ Además de estar escaladas según su magnitud aparente, las estrellas brillan co
 
 ![](Screenshot_4.PNG)
 
-
+Para las estrellas de fondo, he utilizado diversos sistema de partículas con materiales con color emisivo HDR.
 
 ![](Screenshot_5.PNG)
