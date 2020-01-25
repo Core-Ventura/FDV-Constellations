@@ -20,12 +20,17 @@ Además de estar escaladas según su magnitud aparente, las estrellas brillan co
 
 ![](Screenshot_4.PNG)
 
-Para las estrellas de fondo, he utilizado diversos sistema de partículas con materiales con color emisivo HDR.
-
+Para las estrellas de fondo, he utilizado diversos sistema de partículas con materiales con color emisivo HDR. Además, he añadido a la interfaz diversos botones para gestionar la visibilidad de los elementos que podemos ver en el cielo (nombres de estrellas, nombres de constelaciones, líneas de constelaciones, y a modo de demostración, todas las constelaciones).
+ 
 ![](Screenshot_5.PNG)
 
 ---
 
-**Realizando el proyecto...**
+**Realizando el prototipo...**
+
+El proyecto nació como un juego en 2D, en el que se exploraría el espacio en busca de estrellas y constelaciones, no obstante, al montar el mapa estelar en una pseudo-skybox, fue aparente que resultaría mucho más natural y llamativo continuar con un planteamiento tridimensional, pero con una jugabilidad bastante bidimensional. Además, de este modo podría probar finalmente tanto el nuevo sistema de materiales gráfico de Unity *Shader Graph* y de efectos visuales *Visual Effects Graph*.
+
+**Demasiadas estrellas**
+
 
 
