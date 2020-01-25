@@ -23,3 +23,9 @@ Además de estar escaladas según su magnitud aparente, las estrellas brillan co
 Para las estrellas de fondo, he utilizado diversos sistema de partículas con materiales con color emisivo HDR.
 
 ![](Screenshot_5.PNG)
+
+---
+
+**Realizando el proyecto...**
+
+
