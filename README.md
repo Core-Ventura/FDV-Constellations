@@ -57,7 +57,7 @@ La clase **Audio Manager** se encarga de gestionar los audio sources de ambiente
 
 **La interfaz**
 
-La interfaz de compone del tres secciones o paneles:
+La interfaz se compone del tres secciones o paneles:
 1) Abajo a la izquierda encontramos, dibujado a mano en Krita, el observatorio (cuya lente se escala en función del nivel de zoom de la cámara), unas montañas y demás vegetación diversa. En este panel encontraremos los botones de control de visibilidad.
 2) Arriba y al centro encontramos el panel de desafío, donde se nos muestra la constelación a buscar y la situación actual de planetas descubiertos.
 3) Finalmente, a la derecha encontraremos el panel de información de la estrella, donde se nos mostrará toda la información del cuerpo celeste.
