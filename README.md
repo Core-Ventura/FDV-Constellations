@@ -1,6 +1,6 @@
 # FDV-Constellations
 
-Constellations es un juego de exploración en el que descubriremos las estrellas y las constelaciones que conforman nuestro mapa estelar.
+Constellations es un juego de exploración en el que descubriremos las estrellas y las constelaciones que conforman nuestro mapa estelar. El objetivo del proyecto es gamificar la experiencia de aprendizaje de nuestra bóveda celeste.
 
 ![](Gif-Constellations.gif)
 
