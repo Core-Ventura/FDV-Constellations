@@ -4,10 +4,11 @@ Constellations es un juego de exploración en el que descubriremos las estrellas
 
 ![](Gif-Constellations.gif)
 
-En primer lugar el observatorio nos pide encontrar todas las estrellas de una constelación concreta. A través de la cámara y al hacer zoom enfocando una estrella la descubriremos y nos aparecerá su panel de información.
+En primer lugar el observatorio nos pide encontrar todas las estrellas de una constelación concreta. A través de la cámara y al hacer zoom enfocando una estrella la descubriremos y nos aparecerá su panel de información así como su nombre en el mapa.
 
 ![](Screenshot_1.PNG)
 
+Una vez descubiertas todas las estrellas de la constelación, la desbloquearemos y obtendremos sus "líneas", pasando así a la siguiente constelación objetivo.
 
 ![](Screenshot_2.PNG)
 ![](Screenshot_3.PNG)
