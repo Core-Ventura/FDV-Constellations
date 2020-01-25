@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e942766c918cc934da5c3f1a129589ee, type: 3}
+  m_Name: Alnilam
+  m_EditorClassIdentifier: 
+  starName: Alnilam
+  constellation: Orion
+  apparentMagnitude: 1.69
+  absoluteMagnitude: -6.89
+  temperature: 27500
+  mass: 40
+  luminosity: 573000
+  radius: 32.4
+  obervations: It is the 29th-brightest star in the sky (the 4th-brightest in Orion)
+    and is a blue supergiant. Together with Mintaka and Alnitak, the three stars
+    make up Orion's belt, known by many names across many ancient cultures.
+  distance: 2000

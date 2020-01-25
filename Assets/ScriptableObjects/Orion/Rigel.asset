@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e942766c918cc934da5c3f1a129589ee, type: 3}
+  m_Name: Rigel
+  m_EditorClassIdentifier: 
+  starName: Rigel
+  constellation: Orion
+  apparentMagnitude: 0.13
+  absoluteMagnitude: -7.84
+  temperature: 12100
+  mass: 21
+  luminosity: 120000
+  radius: 78.9
+  obervations: Rigel is generally the seventh-brightest star in the night sky and
+    the brightest star in the constellation of Orion. Its brightness varies slightly,
+    and it is occasionally outshone by Betelgeuse, itself a semi-regular variable
+    star.
+  distance: 860

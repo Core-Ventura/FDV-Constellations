@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e942766c918cc934da5c3f1a129589ee, type: 3}
+  m_Name: Sirius
+  m_EditorClassIdentifier: 
+  starName: Sirius
+  constellation: Canis Major
+  apparentMagnitude: -1.47
+  absoluteMagnitude: 1.42
+  temperature: 9940
+  mass: 2.063
+  luminosity: 25.4
+  radius: 1711
+  obervations: 'The brightest star in the night sky, many cultures have historically
+    attached special significance to Sirius, particularly in relation to dogs. It
+    is often colloquially called the "Dog Star" as the brightest star of Canis Major,
+    the "Great Dog" constellation. Canis Major was classically depicted as Orion''s
+    dog. '

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e942766c918cc934da5c3f1a129589ee, type: 3}
+  m_Name: Adhara
+  m_EditorClassIdentifier: 
+  starName: Adhara
+  constellation: Canis Major
+  apparentMagnitude: 1.51
+  absoluteMagnitude: -4.1
+  temperature: 21900
+  mass: 11
+  luminosity: 22300
+  radius: 10.4
+  obervations: If people could see in ultraviolet light, Adhara would be the brightest
+    star in the sky.

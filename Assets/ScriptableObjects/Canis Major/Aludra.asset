@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e942766c918cc934da5c3f1a129589ee, type: 3}
+  m_Name: Aludra
+  m_EditorClassIdentifier: 
+  starName: Aludra
+  constellation: Canis Major
+  apparentMagnitude: 2.45
+  absoluteMagnitude: -7.51
+  temperature: 13500
+  mass: 15
+  luminosity: 66000
+  radius: 47
+  obervations: 'It has only been around a fraction of the time the Sun has, yet is
+    already in the last stages of its life. It is still expanding and may become
+    a red supergiant, or perhaps has already passed that phase, but in either case
+    it will become a supernova within the next few million years. '
