@@ -16,7 +16,10 @@ Ejemplo del mapa celeste con todas las constelaciones - Se trata de un pseudo-sk
 
 ![](Screenshot_3.PNG)
 
-
+Además de estar escaladas según su magnitud aparente, las estrellas brillan con el color correspondiente a su temperatura superficial, siguiendo una escala de categorías de color ajustada a la visibilidad del ojo humano.
 
 ![](Screenshot_4.PNG)
+
+
+
 ![](Screenshot_5.PNG)
