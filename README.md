@@ -47,17 +47,19 @@ Para generar su modelo, utilicé el *Visual Effects Graph*, para generar una esf
 
 **¿Como se descrubre una estrella?**
 
-Tenemos una clase que controla el movimiento de la cámara, y que, dependiendo de nuestro input del ratón y teclado hará *zoom* a través de la modificación del FOV de la cámara. De este modo, condicionado por el FOV, emitiremos un raycast desde la posición inicial de nuestro observatorio en dirección de su vector forward. Al impactar con una estrella, se comprobará si ya está descubierta y se mostrará su panel de información. Del mismo modo, se realizarán comprobaciones para saber si tenemos descubiertas todas las estrellas de una constelación y, de ser así, activar las líneas de la constelación correspondiente.
+Tenemos una clase que controla el movimiento de la cámara **CameraController**, y que, dependiendo de nuestro input del ratón y teclado hará *zoom* a través de la modificación del FOV de la cámara. De este modo, condicionado por el FOV, emitiremos un raycast desde la posición inicial de nuestro observatorio en dirección de su vector forward. Al impactar con una estrella, se comprobará si ya está descubierta y se mostrará su panel de información. Del mismo modo, se realizarán comprobaciones para saber si tenemos descubiertas todas las estrellas de una constelación y, de ser así, activar las líneas de la constelación correspondiente.
 
 
 **Audio dinámico**
 
-La clase **Audio Manager** se encarga de gestionar los audio sources de ambiente y efectos de sonido. A través del código, se realizarán transiciones de volumen entre los sources para pasar de una música ambiente de montaña a un sonido más espacial y focalizador en función del nivel de zoom en el que nos encontremos. 
+La clase **AudioManager** se encarga de gestionar los audio sources de ambiente y efectos de sonido. A través del código, se realizarán transiciones de volumen entre los sources para pasar de una música ambiente de montaña a un sonido más espacial y focalizador en función del nivel de zoom en el que nos encontremos. 
 
 
 **La interfaz**
 
-La interfaz se compone del tres secciones o paneles:
+La interfaz se compone del tres secciones o paneles principales:
 1) Abajo a la izquierda encontramos, dibujado a mano en Krita, el observatorio (cuya lente se escala en función del nivel de zoom de la cámara), unas montañas y demás vegetación diversa. En este panel encontraremos los botones de control de visibilidad.
-2) Arriba y al centro encontramos el panel de desafío, donde se nos muestra la constelación a buscar y la situación actual de planetas descubiertos.
-3) Finalmente, a la derecha encontraremos el panel de información de la estrella, donde se nos mostrará toda la información del cuerpo celeste.
+2) Arriba y al centro encontramos el panel de desafío (controlado por la clase **Challenge**), donde se nos muestra la constelación a buscar y la situación actual de planetas descubiertos.
+3) Finalmente, a la derecha encontraremos el panel de información de la estrella, donde se nos mostrará toda la información del cuerpo celeste y gestionado por la clase **StarInformationPanel**. Para su animación de aparición y desaparición se utilizó un animator, una animación (y su inversa), y una corutina para retrasar la desactivación del componente durante la duración de la animación de desaparición.
+
+Además, encontraremos los nombres de las estrellas (**StarNamesManager**) y las constelaciones y sus líneas (**ConstellationsLinesManager**), que tienen su propio Canvas (tipo Cámara), y que se orientan a la cámara a través de un simple script **CamaraLookAt**.
