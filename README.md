@@ -30,11 +30,13 @@ Para las estrellas de fondo, he utilizado diversos sistema de partículas con ma
 
 El proyecto nació como un juego en 2D, en el que se exploraría el espacio en busca de estrellas y constelaciones, no obstante, al montar el mapa estelar en una pseudo-skybox, fue aparente que resultaría mucho más natural y llamativo continuar con un planteamiento tridimensional, pero con una jugabilidad bastante bidimensional. Además, de este modo podría probar finalmente tanto el nuevo sistema de materiales gráfico de Unity *Shader Graph* y de efectos visuales *Visual Effects Graph*.
 
+
 **Demasiadas estrellas**
 
 El primer problema a resolver era como gestionar una arquitectura que permitiera un número elevado de estrellas y toda su información. Con prefabs resultaría muy costoso y muy complicado de añadir y modificar estrellas, así que me decanté por utilizar *Scriptable Objects*, de este modo generé dos clases, **Star**(que hereda de Scriptable Objects) y **StarDisplay**(que se encargará de obtener la información del scriptable object Star y mostrarla).
 
 De este modo, tendremos una especie de base de datos en la que cada estrella tendrá asociada su scriptable object, el cual contiene toda su información. En principió generé manualmente las estrellas, pero de cara a una posible ampliación del proyecto, se podría crear fácilmente un script que generara todo los objetos a partir de un CSV.
+
 
 **Tamaño, color y brillo**
 
@@ -42,13 +44,16 @@ Para el brillo pensé inicialmente en utilizar la luminosidad de cada estrella y
 
 Para generar su modelo, utilicé el *Visual Effects Graph*, para generar una esfera de partículas emisivas (material HDR) atraídas y repelidas por un campo de fuerza vectorial, dando el efecto de llamaradas solares.
 
+
 **¿Como se descrubre una estrella?**
 
 Tenemos una clase que controla el movimiento de la cámara, y que, dependiendo de nuestro input del ratón y teclado hará *zoom* a través de la modificación del FOV de la cámara. De este modo, condicionado por el FOV, emitiremos un raycast desde la posición inicial de nuestro observatorio en dirección de su vector forward. Al impactar con una estrella, se comprobará si ya está descubierta y se mostrará su panel de información. Del mismo modo, se realizarán comprobaciones para saber si tenemos descubiertas todas las estrellas de una constelación y, de ser así, activar las líneas de la constelación correspondiente.
 
+
 **Audio dinámico**
 
 La clase **Audio Manager** se encarga de gestionar los audio sources de ambiente y efectos de sonido. A través del código, se realizarán transiciones de volumen entre los sources para pasar de una música ambiente de montaña a un sonido más espacial y focalizador en función del nivel de zoom en el que nos encontremos. 
+
 
 **La interfaz**
 
