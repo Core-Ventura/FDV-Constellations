@@ -11,6 +11,12 @@ En primer lugar el observatorio nos pide encontrar todas las estrellas de una co
 Una vez descubiertas todas las estrellas de la constelación, la desbloquearemos y obtendremos sus "líneas", pasando así a la siguiente constelación objetivo.
 
 ![](Screenshot_2.PNG)
+
+Ejemplo del mapa celeste con todas las constelaciones - Se trata de un pseudo-skybox con un mapa de constelaciones obtenido de una panorámica de gran calidad de la NASA.
+
 ![](Screenshot_3.PNG)
+
+
+
 ![](Screenshot_4.PNG)
 ![](Screenshot_5.PNG)
