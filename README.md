@@ -55,7 +55,7 @@ Tenemos una clase que controla el movimiento de la cámara **CameraController**,
 La clase **AudioManager** se encarga de gestionar los audio sources de ambiente y efectos de sonido. A través del código, se realizarán transiciones de volumen entre los sources para pasar de una música ambiente de montaña a un sonido más espacial y focalizador en función del nivel de zoom en el que nos encontremos. 
 
 
-**La interfaz**
+**Interfaz**
 
 La interfaz se compone del tres secciones o paneles principales:
 1) Abajo a la izquierda encontramos, dibujado a mano en Krita, el observatorio (cuya lente se escala en función del nivel de zoom de la cámara), unas montañas y demás vegetación diversa. En este panel encontraremos los botones de control de visibilidad.
